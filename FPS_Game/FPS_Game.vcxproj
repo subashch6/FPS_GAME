@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\headers\Camera.h" />
     <ClInclude Include="src\headers\Entity.h" />
     <ClInclude Include="src\headers\Loader.h" />
     <ClInclude Include="src\headers\MainGame.h" />
@@ -151,6 +152,7 @@
     <ClInclude Include="src\headers\Renderer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Camera\Camera.cpp" />
     <ClCompile Include="src\Entities\Entity.cpp" />
     <ClCompile Include="src\Loading\Loader.cpp" />
     <ClCompile Include="src\MainGame\MainGame.cpp" />
