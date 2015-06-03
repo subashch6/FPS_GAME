@@ -16,7 +16,7 @@ public:
 	static float FAR;
 	Camera(glm::vec3,glm::vec3,glm::vec3);
 	~Camera();
-	
+	void resetCamera();
 };
 
-#endif
+#endif _CAMERA_H

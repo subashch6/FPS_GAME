@@ -14,5 +14,6 @@
 #include <iostream>
 #include "Renderer.h"
 #include "Matricies.h"
+#include "Camera.h"
 
 #endif _MAINGAME_H

@@ -1,7 +1,6 @@
 #include "Camera.h"
 
 
-
 float Camera::FOV = 60.0f;
 float Camera::ASPECT = 4.0f / 3.0f;
 float Camera::NEAR = .1f;
