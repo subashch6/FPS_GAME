@@ -146,6 +146,7 @@
     <ClInclude Include="src\headers\AbstractShader.h" />
     <ClInclude Include="src\headers\Camera.h" />
     <ClInclude Include="src\headers\Entity.h" />
+    <ClInclude Include="src\headers\EntityShader.h" />
     <ClInclude Include="src\headers\Loader.h" />
     <ClInclude Include="src\headers\MainGame.h" />
     <ClInclude Include="src\headers\Matricies.h" />
@@ -161,6 +162,7 @@
     <ClCompile Include="src\Code\ParsingMech\ModelParser.cpp" />
     <ClCompile Include="src\Code\RenderMech\Renderer.cpp" />
     <ClCompile Include="src\Code\Shading\AbstractShader.cpp" />
+    <ClCompile Include="src\code\Shading\EntityShader.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

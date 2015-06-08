@@ -15,5 +15,6 @@
 #include "Renderer.h"
 #include "Matricies.h"
 #include "Camera.h"
+#include "EntityShader.h"
 
 #endif _MAINGAME_H

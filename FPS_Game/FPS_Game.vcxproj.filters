@@ -39,6 +39,9 @@
     <ClInclude Include="src\headers\AbstractShader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\headers\EntityShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Code\Camera\Camera.cpp">
@@ -63,6 +66,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\Code\Shading\AbstractShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\code\Shading\EntityShader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
